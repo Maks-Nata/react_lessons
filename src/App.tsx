@@ -1,16 +1,16 @@
 import './App.css'
-import MyComponent from "./components/myComponent.tsx";
+import {products} from "./components/data/productlist.ts";
+import MyProducts from "./components/my-products/myProducts.tsx";
 
 function App() {
 
 
   return (
-      <> <MyComponent title={'hello'}>
-        react and vite
-      </MyComponent>
-        <MyComponent title={'Good Afternoon'}/>
-      {MyComponent({title:'hello react'})}
-    </>
+
+      <>
+        {products.map((product,index)=><MyProducts key={index} product={product}/>)}
+        </>
+
   )
 }
 
