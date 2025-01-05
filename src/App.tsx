@@ -5,8 +5,11 @@ function App() {
 
 
   return (
-    <> <MyComponent text={'hello'}/>
-      {MyComponent({text:'hello react'})}
+      <> <MyComponent title={'hello'}>
+        react and vite
+      </MyComponent>
+        <MyComponent title={'Good Afternoon'}/>
+      {MyComponent({title:'hello react'})}
     </>
   )
 }
