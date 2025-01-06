@@ -1,0 +1,20 @@
+.wrapper{
+display: flex;
+    margin: 5vh auto;
+;
+}
+.container{
+width: 50vw;
+    height: 30vh;
+    margin: 5vh auto;
+    font-size: 24px;
+}
+.photo{
+    width: 10vw;
+    height: 30vh;
+
+}
+.info{
+    height: 15vh;
+    font-size: 18px;
+}
