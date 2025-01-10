@@ -1,4 +1,4 @@
-import {ISimpsons} from "../modules/simpsons.ts";
+import {ISimpsons} from "../../modules/simpsons.ts";
 import {ReactNode} from "react";
 import './style_simpson.css'
 interface CharacterComponentProps {
