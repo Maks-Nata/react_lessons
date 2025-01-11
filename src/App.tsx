@@ -1,14 +1,13 @@
-
-
+import UsersComponent from "./components/usersComponent/UsersComponent.tsx";
 
 const App = () => {
 
 
-  return (
-      <div>
-
-      </div>
-  );
+    return (
+        <div>
+            <UsersComponent/>
+        </div>
+    );
 };
 
 export default App;
